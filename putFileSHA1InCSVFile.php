@@ -1,4 +1,4 @@
-#!/bin/php
+#!/usr/bin/php
 <?Php
 /*
  * Made by John PIGERET, john.pigeret@gmail.com
@@ -18,7 +18,7 @@ setlocale(LC_ALL, 'fr_FR.utf8');
 define ('NEW_LINE', "\r\n");
 
 //openssl
-$SH_OPENSSL_PATH = '/opt/bin';
+$SH_OPENSSL_PATH = '/usr/bin';
 
 
 if ( !(is_dir($SH_OPENSSL_PATH) && file_exists($SH_OPENSSL_PATH . '/openssl') && is_executable($SH_OPENSSL_PATH . '/openssl')) )
